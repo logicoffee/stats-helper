@@ -76,4 +76,4 @@ with gr.Blocks() as bl:
     btn_test.click(plot, inputs=[n_a, c_a, n_b, c_b], outputs=image)
 
 
-bl.launch()
+bl.launch(server_name="0.0.0.0", server_port=7860)

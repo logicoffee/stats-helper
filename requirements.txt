@@ -1,2 +1,4 @@
 gradio==3.38.0
+numpy==1.25.1
 scipy==1.11.1
+statsmodels==0.14.0

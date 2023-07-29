@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    image: stats-helper
+    command: gradio main.py
+    volumes:
+    - ./:/app
+    ports:
+    - "7860:7860"
